@@ -1,32 +1,49 @@
-# FlatFinder
+# FDM Flat Finder
 
-to run:
-npm i
-npm install react-icons
-npm run dev
+An optimised platform designed to simplify the accommodation search process for FDM consultants. 
 
-dependecies :
-python 3
+## Local Development
 
-flask
-flask-cors
+To set up and run this project on your local machine, follow these steps: 
 
-npm install react-client-session --save --force
+### 1. Install Frontend Dependencies 
+Run the following commands in your terminal.
 
+```
+$ npm i
+$ npm install react-icons
+$ npm run dev
+```
+### 2. Install Backend Dependencies 
+Ensure you have Python 3 installed, then follow the appropriate steps for your operating system.
 
-linux:
-sudo apt-get install python3
-pip3 install flask
-pip3 install flask-cors
-MacOS:
-brew install python3
-pip3 install flask
-pip3 install flask-cors
-windows:
-cd api
-python3 -m flask run
-
-linux/macOS
-
-flask run
-
+```
+$ python 3
+$ flask
+$ flask-cors
+$ npm install react-client-session --save --force
+```
+### 3. Follow the appropriate steps based on your Operating System 
+Windows: 
+Navigate to the api directory. Run the Flask API. 
+```
+$ cd api
+$ python3 -m flask run
+```
+macOS: 
+Install Python 3 using Homebrew. Install Flask and Flask-CORS. Run the Flask API. 
+```
+$ brew install python3
+$ pip3 install flask
+$ pip3 install flask-cors
+$ flask run
+```
+Linux: 
+Install Python 3. Install Flask and Flask-CORS. Run the Flask API. 
+```
+$ sudo apt-get install python3
+$ pip3 install flask
+$ pip3 install flask-cors
+$ flask run
+```
+The FDM Flat Finder app should now be running on your chosen device. 
