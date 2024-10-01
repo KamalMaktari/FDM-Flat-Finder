@@ -2,7 +2,7 @@
 
 An optimised platform designed to simplify the accommodation search process for FDM consultants. 
 
-## Local Development
+## Local Deployment
 
 To set up and run this project on your local machine, follow these steps: 
 
