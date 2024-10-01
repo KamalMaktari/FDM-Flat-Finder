@@ -1,6 +1,6 @@
 # FDM Flat Finder
 
-An optimised platform designed to simplify the accommodation search process for FDM consultants. 
+An optimised web platform crafted to streamline and enhance the accommodation search experience for FDM consultants, offering a seamless and efficient solution tailored to their unique needs. 
 
 ## Local Deployment
 
