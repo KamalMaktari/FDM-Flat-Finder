@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PropertySearchPage</title>
+
+    <style>
+        body{
+            size: 90%;
+            padding: 1.5em;
+            margin-left: 2em;
+            margin-right: 2em;
+            font-family: calibri;
+        }
+
+        .nav {
+            height: 3.5em;
+            width: 100%;
+            display: flex;
+        }
+        
+        .leftnav {
+            float: left;
+            width: 8%;
+            min-width: 7em;
+            height: 100%;
+            border-radius: 1.2em;
+            background-color: #339476;
+            align-items: center;
+            justify-content: center;
+            display: flex;
+        }
+
+        .rightnav {
+            float: right;
+            width: 90%;
+            min-width: 70em;
+            height: 2.5em;
+            display: flex;
+            align-content: center;
+            align-items: center;
+            margin-left: 0.7em;
+            border-radius: 1.2em;
+            padding: 0.5em;
+            background-color: #339476;
+        }
+        
+        input {
+            outline: white;
+            border: white;
+            align-content: center;
+            margin-left: 0.85em;
+            width: 40%;
+            padding: 0.45em;
+            border-radius: 1em;
+        }
+
+        .filterbtn {
+            outline: white;
+            border: white;
+            align-items: center;
+            align-content: center;
+            display: inline-flex;
+            margin-left: 1em;
+            width: 8.5%;
+            padding: 0.45em;
+            background-color: white;
+            border-radius: 1em;
+        }
+
+        button:hover{
+            cursor: pointer;
+        }
+
+        .gridcontainer {
+            display: grid;
+            grid-template-columns: auto auto;
+        }
+          
+        .griditem {
+            border: 1px;
+            font-size: 20px;
+            margin:10px;
+            text-align: center;
+        }
+
+        table {
+            width: 100%;
+        }
+        
+        .flatbtn {
+            margin-top: 2em;
+            border: none;
+            background-color: inherit;
+        }
+
+        .flat {
+            width: 48em;
+            height: 27em;
+            border-radius: 0.5em;
+            margin: auto;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <div class="leftnav"><img src="images/fdmLogo.png" alt="FDM" width=100% height=90%></div>
+        <div class="rightnav">
+            <input type="text" placeholder="Search" margin="">
+            <button class="filterbtn" color: grey>FILTERS<img src="images/filter-icon.jpg" width=25% height=50%></button>
+        </div>
+    </div>
+    <div class="gridcontainer">
+        <div class="griditem"><button class="flatbtn"><img class="flat" src="images/mile-end-flat1.png"></button></div>
+        <div class="griditem"><button class="flatbtn"><img class="flat" src="images/mile-end-flat2.png"></button></div>
+        <div class="griditem"><button class="flatbtn"><img class="flat" src="images/mile-end-flat3.png"></button></div>
+        <div class="griditem"><button class="flatbtn"><img class="flat" src="images/mile-end-flat4.png"></button></div>
+        <div class="griditem"><button class="flatbtn"><img class="flat" src="images/mile-end-flat5.png"></button></div>
+        <div class="griditem"><button class="flatbtn"><img class="flat" src="images/mile-end-flat6.png"></button></div>
+    </div>
+</body>
+</html>
